@@ -1,0 +1,74 @@
+body {
+  padding-top: 56px;
+  background-color: #e7e7e9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: #0077f7;
+  color: aliceblue;
+  border: 0px;
+
+  box-shadow: 5px 5px 13px #0064d0, -3px -3px 10px #258af7,
+    inset 2px 2px 8px rgba(0, 100, 208, 0.2);
+}
+
+.btn:hover {
+  transform: scale(0.96);
+
+  box-shadow: 3px 2px 15px #0064d0, -3px -3px 10px #258af7,
+    inset 4px 4px 10px rgba(0, 100, 208, 0.2),
+    inset -4px -4px 8px rgba(161, 205, 252, 0.2);
+}
+
+.btn:clicked {
+  box-shadow: 5px 5px 13px #0064d0, -3px -3px 10px #258af7,
+    inset 2px 2px 8px rgba(0, 100, 208, 0.2);
+}
+
+.card {
+  box-shadow: 5px 5px 13px #cbcecf, -5px -5px 10px #ffffff;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.contactcard {
+  padding: 10%;
+  box-shadow: 5px 5px 13px #cbcecf, -5px -5px 10px #ffffff;
+}
+
+iframe {
+  box-shadow: 5px 5px 13px #cbcecf, -5px -5px 10px #ffffff,
+    inset 4px 4px 10px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 8px rgba(256, 256, 256, 0.2);
+}
+
+input {
+  box-shadow: 2px 2px 8px #cbcecf, -4px -4px 10px #ffffff,
+    inset 3px 3px 10px rgba(0, 0, 0, 0.2),
+    inset -3px -3px 8px rgba(256, 256, 256, 0.2);
+}
+
+textarea {
+  box-shadow: 3px 3px 8px #cbcecf, -5px -5px 10px #ffffff,
+    inset 4px 4px 10px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 8px rgba(256, 256, 256, 0.2);
+  border: 0px;
+}

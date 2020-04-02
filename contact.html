@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Graphex - Contact Us</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles -->
+    <link href="css/graphex.css" rel="stylesheet" />
+
+    <!-- Custome Animation CSS-->
+    <link href="css/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html" style="font-weight: 500;"
+          >GRAPHEX</a
+        >
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio-3-col.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" style="color: white;"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <!-- Page Heading& Breadcrumbs -->
+      <h1 class="mt-4 mb-3">
+        Contact Us
+      </h1>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="breadcrumb-item active">Contact Us</li>
+      </ol>
+
+      <div class="row">
+        <!-- Map -->
+        <div class="col-lg-8 mb-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.6710891910816!2d79.85255772924964!3d6.912939753928066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x141db277b60011d8!2sLiberty%20Plaza!5e0!3m2!1sen!2slk!4v1585615647258!5m2!1sen!2slk"
+            width="100%"
+            height="400"
+            frameborder="0"
+            style="border:0;"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+        <!-- Contact Details Column -->
+        <div class="col-lg-4 mb-4">
+          <div class="contactcard" data-aos="fade-left" data-aos-delay="50">
+            <h3 data-aos="fade-left" data-aos-delay="100">Contact Details</h3>
+            <p data-aos="fade-left" data-aos-delay="150">
+              42P, Ground Floor
+              <br />Liberty Plaza, 00300
+              <br />
+            </p>
+            <p data-aos="fade-left" data-aos-delay="200">
+              <abbr title="Phone">Phone</abbr>: (123) 456-7890
+            </p>
+            <p data-aos="fade-left" data-aos-delay="250">
+              <abbr title="Email">Email</abbr>:
+              <a href="mailto:name@example.com">contactus@graphex.com </a>
+            </p>
+            <p data-aos="fade-left" data-aos-delay="300">
+              <abbr title="Hours">Hours</abbr>: Monday - Friday: 9:00 AM to 5:00
+              PM
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="row">
+        <div class="col-lg-8 mb-4">
+          <h3 data-aos="fade-up" data-aos-delay="100">Send us a Message</h3>
+          <form
+            name="sentMessage"
+            id="contactForm"
+            novalidate
+            data-aos="fade-up"
+            data-aos-delay="150"
+          >
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Full Name:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  required
+                  data-validation-required-message="Please enter your name."
+                />
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Phone Number:</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  required
+                  data-validation-required-message="Please enter your phone number."
+                />
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Email Address:</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  required
+                  data-validation-required-message="Please enter your email address."
+                />
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Message:</label>
+                <textarea
+                  rows="10"
+                  cols="100"
+                  class="form-control"
+                  id="message"
+                  required
+                  data-validation-required-message="Please enter your message"
+                  maxlength="999"
+                  style="resize:none"
+                ></textarea>
+              </div>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              id="sendMessageButton"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <h1 style="text-align: center; color: white;">GRAPHEX</h1>
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; Graphex 2020
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
