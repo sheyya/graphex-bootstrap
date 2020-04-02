@@ -67,8 +67,8 @@ input {
 }
 
 textarea {
-  box-shadow: 3px 3px 8px #cbcecf, -5px -5px 10px #ffffff,
-    inset 4px 4px 10px rgba(0, 0, 0, 0.2),
+  box-shadow: 3px 3px 8px #cbcecf, -5px -5px 8px #ffffff,
+    inset 4px 4px 10px rgba(0, 0, 0, 0.1),
     inset -4px -4px 8px rgba(256, 256, 256, 0.2);
   border: 0px;
 }
